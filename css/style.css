@@ -1,0 +1,514 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Kanit', sans-serif;
+	font-size: 16px;
+	line-height: 1.7em;
+	background: black !important;
+	scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif;
+   
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+	list-style: none;
+}
+
+/*to top start*/
+.toTop {
+    font-size:32px;
+    width:80px;
+    height:80px;
+    background:red;
+    border-radius: 50%;
+    position:fixed;
+    bottom:16px;
+    right:32px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:black;
+    opacity:0;
+    pointer-events: none;
+    transition: all 1s;
+}
+
+.active{
+    bottom:32px;
+    opacity:1;
+    pointer-events: auto;
+}
+/*to top end*/
+
+/*header part start*/
+.header{
+	width: 100%;
+	background: aliceblue;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	font-family: 'Young Serif', serif;
+	color: black;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 20px;
+	letter-spacing: 2px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+	background: transparent;
+	color: red;
+	transition: 1s;
+}
+.navbar-brand .logo-img{
+	width: 100%;
+	height: auto;
+}
+.header-banner-title{
+	width: 100%;
+	padding: 50px 0px;
+	margin: 0px 0px 0px 30px;
+}
+.header-banner-title span{
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.header-banner-title h1{
+	letter-spacing: 5px;
+	font-size: 50px;
+	color: #2e3d9a;
+	font-weight: bold;
+}
+.header-banner-title h5{
+	padding: 10px 0px;
+	text-transform: uppercase;
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
+}
+.header-banner-title p{
+	color: black;
+	font-weight: 500;
+}
+.banner-btn{
+	width: 100%;
+	padding: 10px 0px;
+}
+.banner-btn .btn-success{
+	padding: 13px 40px;
+	background: #2E3D9A;
+	color: white;
+	border: 1px solid #2E3D9A;
+	border-radius: 1px;
+	font-weight: bold;
+
+}
+.banner-btn .btn-success:hover{
+	background: transparent;
+	color: black;
+	transition: 1s;
+}
+/*header part end*/
+
+/*service part start*/
+.service{
+	width: 100%;
+	padding: 80px 0px;
+}
+.service .title{
+	text-align: center;
+	padding: 50px 0px;
+}
+.service .title h1{
+	font-size: 60px;
+	color: white;
+	font-weight: bold;
+	line-height: 1.7em;
+	letter-spacing: 2px;
+}
+.first-service{
+	margin: 0px 0px 0px 30px;
+	text-align: center;
+	width: 100%;
+	padding: 100px 0px;
+}
+.first-service .card{
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+}
+
+
+s.first-service .icon{
+	width: 100%;
+	display: block;
+	padding: 20px 0px;
+}
+.first-service .icon .fa{
+	font-size: 70px;
+	color: white;
+}
+.first-service p{
+	font-size: 20px;
+	color: white;
+	padding: 25px 0px;
+	font-weight: bold;
+	background: black;
+	text-transform: capitalize;
+
+
+}
+.service-img{
+	width: 100%;
+	padding: 50px 0px;
+}
+.service-inner-title{
+	width: 100%;
+	padding: 10px 0px;
+	text-align: center;
+}
+.service-inner-title h1{
+	padding: 10px 0px;
+	text-shadow: 10px 12px 14px 16px red;
+   font-size: 50px;
+   font-weight: bold;
+   color: white;
+   line-height: 1.4em;
+   letter-spacing: 2px;
+}
+.service-inner-title p{
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	background: black;
+	text-transform: capitalize;
+
+}
+
+/*service end*/
+
+/*protfolio start*/
+.protfolio{
+	width: 100%;
+	padding: 80px 0px;
+	background: #eee;
+}
+.protfolio .title{
+	width: 100%;
+	padding: 10px 0px;
+	text-align: center;
+}
+.protfolio  h1{
+	padding: 10px 0px;
+	text-shadow: 10px 12px 14px 16px red;
+   font-size: 50px;
+   font-weight: bold;
+   color: black;
+   line-height: 1.4em;
+   letter-spacing: 5px;
+}
+
+
+/*mixit css start*/
+.wrapper{
+	width: 100%;
+	padding: 40px 0px;
+}
+.filter{
+	width: 100%;
+	text-align: center;
+}
+.filter .btn-info{
+	padding: 15px 52px;
+	background: #08c;
+	color: white;
+	border: 1px solid #08c;
+	font-size: 13px;
+	text-transform: uppercase;
+	border-radius: 2px;
+	margin: 2px 2px;
+	transition: 1s;
+}
+.filter .btn-info:hover{
+	background: black;
+	color: white;
+}
+.filter .btn-info:focus{
+	background: transparent;
+	color: red;
+}
+.protfolio .item{
+	width: 100%;
+	position: relative;
+}
+.padd{
+	padding: 2px;
+}
+.item-hover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(136, 200, 0, .8);
+	text-align: center;
+	transform: scale(0);
+	transition: 1s;
+}
+.protfolio .item:hover .item-hover{
+	transform: scale(1);
+}
+.item-hover .fa{
+	font-size: 20px;
+	color: white;
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.wrapper .img-fluid {
+    cursor: pointer;
+    padding: 40px 0px;
+}
+span{
+	font-size: 10px;
+	color: black;
+}
+.mix{
+	background: aliceblue;
+}
+/*mixit css end*/
+
+/*number-counter start*/
+
+.number-counter{
+	width: 100%;
+	padding: 80px 0px;
+	box-shadow: 10px 12px 13px 15px red;
+}
+.number-counter .heading{
+	padding: 80px 0px;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.counter-box{
+	width: 100%;
+	padding: 50px 0px;
+	margin: 0px;
+	text-align: center;
+
+}
+.counter-box .fa{
+	padding: 10px 0px;
+	color: white;
+	font-size: 60px;
+}
+.cup{
+	font-size: 50px;
+	color: white;
+	letter-spacing: 3px;
+}
+.Users{
+	font-size: 50px;
+	color: white;
+	letter-spacing: 3px;
+}
+.heart{
+	font-size: 50px;
+	color: white;
+	letter-spacing: 3px;
+}
+.counter-box h4{
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+/*number-counter end*/
+
+/*contact-form start*/
+.contact-form{
+	width: 100%;
+	padding: 80px 0px;
+	background: white;
+}
+.contact-form .title{
+	padding: 40px 0px;
+	text-align: center;
+}
+.contact-form .title h1{
+	padding: 40px 0px;
+	font-size: 50px;
+	color: black;
+	letter-spacing: 2px;
+}
+.contact-icon-1{
+	padding: 20px 0px;
+	background: black;
+}
+.contact-icon-1 h4{
+	font-size: 20px;
+	color: white;
+	margin: 30px;
+}
+.contact-icon-1 .fa{
+	color: white;
+	font-size: 40px;
+}
+/*contact-form end*/
+/*contact form start*/
+.main-form{
+	width: 100%;
+	padding: 40px 70px;
+	background: black;
+	margin: 60px 0px 70px;
+	position: relative;
+	z-index: ;
+}
+.contact-btn{
+	text-align: center;
+
+}
+
+.contact-btn  .btn-primary{
+	padding: 20px 100px;
+	background: black;
+	color: #fff;
+	border: 1px solid #008ed6;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	border-radius: 2px;
+	transition: 1s;
+}
+.contact-btn  .btn-primary:hover{
+	background: red;
+	color: white;
+}
+/*contact form end*/
+
+/*about-me start*/
+.about-me{
+	width: 100%;
+	padding: 20px 0px;
+}
+.about-me .ab-title{
+	width: 100%;
+	padding: 170px 0px;
+}
+
+.about-me .ab-title h1{
+	padding: 10px 0px;
+	font-size: 50px;
+	color: white;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.about-me .ab-title p{
+	font-size: 14px;
+	color: white;
+	font-weight: bold;
+	background: black;
+	text-transform: capitalize;
+
+}
+.ab-btn  .btn-success{
+	padding: 18px 40px;
+	background: black;
+	color: #fff;
+	border: 1px solid #008ed6;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	border-radius: 2px;
+	transition: 1s;
+}
+.ab-btn  .btn-success:hover{
+	background: red;
+	color: white;
+}
+
+/*about end*/
+
+/*footer start*/
+.footer{
+	width: 100%;
+	padding: 40px 0px;
+
+}
+
+.footer .footer-icon{
+	text-align: center;
+	margin: 0px 0px 0px 50px;
+
+}
+.footer .footer-icon .fa{
+   font-size: 50px;
+   color: white;
+   letter-spacing: 50px;
+}
+.footer-bottom{
+	width: 100%;
+	padding: 20px 0px;
+	text-align: center;
+}
+.copyright p{
+	color: white;
+}
+.copyrights a{
+	 color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    text-decoration: none;
+}
+.footer-icon a{
+	list-style: none;
+	text-decoration: none;
+}
+/*footer end*/
